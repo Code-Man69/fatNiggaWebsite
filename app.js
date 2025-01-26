@@ -5,3 +5,9 @@ menu.addEventListener("click", function () {
   menu.classList.toggle("is-active");
   menuLinks.classList.toggle("active");
 });
+
+window.onload = function () {
+  document.body.classList.remove("loading");
+
+  document.body.classList.add("loaded");
+};

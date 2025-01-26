@@ -30,6 +30,7 @@
 }
 
 #navbar__logo {
+  transition: all 0.5s ease;
   background-color: rgb(70, 102, 154);
   background-image: linear-gradient(to top, rgb(61, 104, 173) 0%, #d6d6d6 100%);
   background-size: 100%;
@@ -66,6 +67,10 @@
 }
 
 .navbar__links {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   color: rgb(135, 157, 198);
   display: flex;
   align-items: center;
@@ -84,6 +89,10 @@
 }
 
 .button {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,19 +102,17 @@
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 4px;
+  border-radius: 80px;
   background: rgb(70, 102, 154);
   color: rgb(255, 255, 255);
 }
 
 .button:hover {
   background: rgb(92, 143, 224);
-  transition: all 0.3 ease;
 }
 
 .navbar__links:hover {
   color: rgb(84, 137, 222);
-  transition: all 0.3 ease;
 }
 
 .navbar__container {
@@ -136,7 +143,6 @@
   background: rgb(19, 19, 19);
   top: 100%;
   opacity: 1;
-  transition: all 0.5s ease;
   z-index: 99;
   height: 50vh;
   font-size: 1.6rem;
@@ -150,7 +156,6 @@
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  transition: all 0.3s ease-in-out;
   background: rgb(147, 173, 216);
 }
 
